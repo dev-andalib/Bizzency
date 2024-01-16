@@ -1,6 +1,9 @@
-var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-
 $(document).ready(function () {
+  var vw = Math.max(
+    document.documentElement.clientWidth,
+    window.innerWidth || 0
+  );
+
   $(window).resize(function () {
     location.reload();
   });
@@ -12,6 +15,14 @@ $(document).ready(function () {
       nextArrow: $(".slide_btn"),
       prevArrow: $(".prev"),
     });
+
+    $(".profiler").slick({
+      infinite: true,
+      slidesToShow: 3,
+      slideToScroll: 1,
+      nextArrow: $(".p_next"),
+      prevArrow: $(".p_prev"),
+    });
   }
 
   if (vw > 900) {
@@ -21,6 +32,14 @@ $(document).ready(function () {
       slideToScroll: 1,
       nextArrow: $(".slide_btn"),
       prevArrow: $(".prev"),
+    });
+
+    $(".profiler").slick({
+      infinite: true,
+      slidesToShow: 2,
+      slideToScroll: 1,
+      nextArrow: $(".p_next"),
+      prevArrow: $(".p_prev"),
     });
   }
 
@@ -32,15 +51,15 @@ $(document).ready(function () {
       nextArrow: $(".slide_btn"),
       prevArrow: $(".prev"),
     });
-  }
 
-  $(".profiler").slick({
-    infinite: true,
-    slidesToShow: 3,
-    slideToScroll: 1,
-    nextArrow: $(".p_next"),
-    prevArrow: $(".p_prev"),
-  });
+    $(".profiler").slick({
+      infinite: true,
+      slidesToShow: 1,
+      slideToScroll: 1,
+      nextArrow: $(".p_next"),
+      prevArrow: $(".p_prev"),
+    });
+  }
 
   $(".testimonial").slick({
     infinite: true,

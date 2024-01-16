@@ -82,7 +82,6 @@ a {
   overflow: hidden;
 }
 
-
 .banner_wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -533,20 +532,25 @@ span {
 }
 
 /* our portofolio */
-
+#porto{
+  width: 100%;
+}
 .porto_wrap {
   text-align: center;
   padding-top: 98px;
   padding-bottom: 98px;
-  width: 100%;
+  width: 1245px;
   position: relative;
+  margin: 0 auto;
+  padding-right: 40px;
 }
 
 .porto_wrap h4 {
-  font-size: 14px;
+  font-size: 22px;
   color: #0f2f44;
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
+  padding-right: 30px;
 }
 
 .porto_wrap h5 {
@@ -556,10 +560,11 @@ span {
   font-weight: 400;
   text-transform: capitalize;
   margin-bottom: 57px;
+  padding-right: 30px;
 }
 .profiler {
-  display: flex;
   margin-bottom: 60px;
+  padding-left: 20px;
 }
 
 .profiler .profile .img {
@@ -627,7 +632,7 @@ span {
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
-
+  margin: 16px 0;
   padding: 16px 0;
   text-align: center;
   border: 1px solid #ffc712;
@@ -647,7 +652,7 @@ span {
   width: 50px;
   position: absolute;
   top: 400px;
-  left: 33%;
+  left: 400px;
   transform: translateX(-50%);
   cursor: pointer;
   transition: all linear 0.3s;
@@ -659,7 +664,7 @@ span {
   width: 50px;
   position: absolute;
   top: 400px;
-  right: 32%;
+  right: 417px;
   transform: translateX(-50%);
   cursor: pointer;
   transition: all linear 0.3s;
@@ -667,10 +672,12 @@ span {
 
 .p_prev:hover {
   background-color: #fff;
+  border: 1px solid black;
 }
 
 .p_next:hover {
   background-color: #fff;
+  border: 1px solid black;
 }
 
 /* testimonial */

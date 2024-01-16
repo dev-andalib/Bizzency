@@ -2,6 +2,21 @@
   .ser_text {
     width: 820px;
   }
+
+  .porto_wrap {
+    width: 820px;
+  }
+  .porto_wrap h4,
+  .porto_wrap h5 {
+    padding-right: 20px;
+  }
+  .p_prev {
+    left: 20px;
+  }
+
+  .p_next {
+    right: 10px;
+  }
 }
 
 @media screen and (max-width: 1030px) {
@@ -68,6 +83,50 @@
 @media screen and (max-width: 900px) {
   .ser_text {
     width: 320px;
+  }
+
+  .ser_text .slider .slide .slide1 {
+    width: 320px !important;
+  }
+  .ser_text .slider .slide .slide1 .slide_i {
+    width: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 60px;
+    transition: all linear 0.3s;
+  }
+
+  #serv
+    > div
+    > div
+    > div
+    > div
+    > div
+    > div.slide.slick-slide.slick-current.slick-active {
+    width: 320px !important;
+  }
+
+  .porto_wrap h4,
+  .porto_wrap h5 {
+    padding-right: 0;
+  }
+  .p_prev {
+    left: 20px;
+  }
+
+  .p_next {
+    right: 10px;
+  }
+
+  #porto {
+    width: 100%;
+  }
+  .porto_wrap {
+    width: 100%;
+  }
+  .profiler {
+    width: 400px;
+    margin: 0 auto;
   }
 }
 
@@ -189,35 +248,22 @@
     width: 100%;
   }
 
-
-  .skill_p{
+  .skill_p {
     width: 180px;
   }
   .progress-section {
     width: 320px;
     padding-left: 0;
     text-align: right;
-}
-  
-   
-  .ser_text .slider .slide .slide1 {
-    width: 320px !important;
-  }
-  .ser_text .slider .slide .slide1 .slide_i {
-    width: 70px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 60px;
-    transition: all linear 0.3s;
   }
 
-  #serv
-    > div
-    > div
-    > div
-    > div
-    > div
-    > div.slide.slick-slide.slick-current.slick-active {
-    width: 320px !important;
+  .p_next {
+    right: -12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .p_next {
+    right: -130px;
   }
 }
