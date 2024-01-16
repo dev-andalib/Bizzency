@@ -1,0 +1,164 @@
+@media screen and (max-width: 1030px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+  }
+
+  .nav_wrap .menu ul {
+    column-gap: 5px;
+  }
+
+  .text_wrapper {
+    width: 200px;
+  }
+
+  .text_wrapper h2 {
+    font-size: 25px;
+  }
+
+  .text_wrapper h3 {
+    font-size: 40px;
+  }
+
+  .text_wrapper h4 {
+    font-size: 16px;
+  }
+
+  .pic {
+    width: 300px;
+  }
+
+  p {
+    width: 343px;
+  }
+
+  .about_content {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    column-gap: 12px;
+  }
+
+  .info {
+    width: 400px;
+  }
+
+  .skillz_pic {
+    width: 400px;
+  }
+
+  .skillz_pic img {
+    object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 805px) {
+  .nav_wrap {
+    justify-content: center;
+  }
+
+  .nav_wrap .logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .nav_wrap .menu ul {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .nav_wrap .menu ul li a {
+    padding: 10px 4px;
+  }
+
+  .pic {
+    display: none;
+  }
+
+  .text_wrapper {
+    width: 100%;
+    text-align: center;
+  }
+
+  .text_wrapper h2 {
+    font-size: 50px;
+  }
+
+  .text_wrapper h3 {
+    font-size: 80px;
+  }
+
+  .text_wrapper h4 {
+    font-size: 32px;
+  }
+
+  p {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .about_pic {
+    display: none;
+  }
+
+  .about_content {
+    text-align: center;
+  }
+
+  .skillz_pic {
+    display: none;
+  }
+
+  .info {
+    text-align: center;
+    width: 100%;
+  }
+
+  .info_text {
+    text-align: center;
+  }
+
+  .info_skill{
+    margin: 0 auto;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header_item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .header_item h2 {
+    font-size: 10px;
+  }
+
+  .nav_wrap .menu ul {
+    flex-wrap: wrap;
+    justify-content: stretch;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  .text_wrapper h3 {
+    font-size: 60px;
+  }
+
+  .about_wrap {
+    width: 100%;
+  }
+
+  .about_wrap a {
+    margin: 10px 0;
+
+  }
+
+
+  .info_skill{
+    width: 100%;
+  }
+}
