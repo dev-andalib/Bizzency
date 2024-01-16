@@ -1,3 +1,9 @@
+@media screen and (max-width: 1230px) {
+  .ser_text {
+    width: 820px;
+  }
+}
+
 @media screen and (max-width: 1030px) {
   .container {
     width: 100%;
@@ -48,6 +54,20 @@
 
   .skillz_pic img {
     object-fit: contain;
+  }
+  .info_skill {
+    width: 400px;
+  }
+  .progress-section {
+    width: 400px;
+    padding-left: 30px;
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .ser_text {
+    width: 320px;
   }
 }
 
@@ -117,9 +137,18 @@
     text-align: center;
   }
 
-  .info_skill{
+  .info_skill {
+    width: 300px;
     margin: 0 auto;
     padding: 10px;
+  }
+  .skill_p {
+    width: 280px;
+  }
+  .progress-section {
+    width: 370px;
+    padding-left: 0;
+    text-align: right;
   }
 }
 
@@ -154,11 +183,41 @@
 
   .about_wrap a {
     margin: 10px 0;
+  }
 
+  .info_skill {
+    width: 100%;
   }
 
 
-  .info_skill{
-    width: 100%;
+  .skill_p{
+    width: 180px;
+  }
+  .progress-section {
+    width: 320px;
+    padding-left: 0;
+    text-align: right;
+}
+  
+   
+  .ser_text .slider .slide .slide1 {
+    width: 320px !important;
+  }
+  .ser_text .slider .slide .slide1 .slide_i {
+    width: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 60px;
+    transition: all linear 0.3s;
+  }
+
+  #serv
+    > div
+    > div
+    > div
+    > div
+    > div
+    > div.slide.slick-slide.slick-current.slick-active {
+    width: 320px !important;
   }
 }
