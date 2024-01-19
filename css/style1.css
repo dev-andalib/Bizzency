@@ -145,7 +145,7 @@ p {
 
 .explore {
   margin-top: 30px;
-  padding: 14px 19px;
+  padding: 14px 14px;
   border: 1px solid #8484bf;
   background-color: #8484bf;
   color: #fff;
@@ -157,7 +157,7 @@ p {
 }
 
 .play {
-  margin-left: 19px;
+  margin-left: 4px;
   padding: 14px;
   border-radius: 50%;
   border: #fff;
