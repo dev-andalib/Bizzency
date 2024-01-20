@@ -538,7 +538,6 @@ span {
 .porto_wrap {
   text-align: center;
   padding-top: 98px;
-  padding-bottom: 98px;
   width: 1245px;
   position: relative;
   margin: 0 auto;
@@ -550,7 +549,7 @@ span {
   color: #0f2f44;
   font-family: "Ubuntu", sans-serif;
   font-weight: 300;
-  padding-right: 30px;
+  
 }
 
 .porto_wrap h5 {
@@ -560,12 +559,14 @@ span {
   font-weight: 400;
   text-transform: capitalize;
   margin-bottom: 57px;
-  padding-right: 30px;
+  
 }
 .profiler {
   margin-bottom: 60px;
   padding-left: 20px;
+  padding-left: 56px;
 }
+
 
 .profiler .profile .img {
   position: relative;
@@ -608,7 +609,6 @@ span {
 
 .profiler .profile .img img:hover {
   height: 344px;
-  width: 350px;
   object-fit: cover;
 }
 
@@ -625,6 +625,9 @@ span {
   -moz-box-shadow: 0px 0px 11px -2px rgba(0, 0, 0, 0.61);
 }
 
+.browseAll{
+  text-align: center;
+}
 .browse {
   width: 135px;
   height: 47px;
@@ -634,7 +637,7 @@ span {
   text-transform: uppercase;
   margin: 16px 0;
   padding: 16px 0;
-  text-align: center;
+  
   border: 1px solid #ffc712;
   background-color: #ffc712;
   color: #0f2f44;
@@ -687,10 +690,11 @@ span {
 }
 
 .test_text {
-  width: 100%;
+  width: 1300px;
   text-align: center;
   padding: 60px 0 80px 0;
   position: relative;
+  margin: 0 auto;
 }
 
 .test_text h4 {
@@ -709,6 +713,12 @@ span {
   margin-bottom: 23px;
 }
 
+.test_text .testimonial{
+  margin-left: 20px;
+  display: flex;
+  column-gap: 30px;
+  position: relative;
+}
 .test_text .testimonial .testi {
   border-radius: 10px 10px 10px 10px;
   -webkit-border-radius: 10px 10px 10px 10px;
@@ -753,6 +763,7 @@ span {
   font-weight: 300;
   font-family: "Open Sans", sans-serif;
   padding-bottom: 30px;
+  width: 335px;
 }
 
 .t_next {
@@ -762,7 +773,7 @@ span {
   width: 50px;
   position: absolute;
   top: 220px;
-  right: -35px;
+  right: 1%;
   transform: translateX(-50%);
   cursor: pointer;
   transition: all linear 0.3s;
@@ -775,7 +786,7 @@ span {
   width: 50px;
   position: absolute;
   top: 220px;
-  left: -5px;
+  left: 1%;
   transform: translateX(-50%);
   cursor: pointer;
   transition: all linear 0.3s;
@@ -789,11 +800,6 @@ span {
   background-color: #fff;
 }
 
-.testimonial {
-  display: flex;
-  column-gap: 30px;
-  position: relative;
-}
 
 /* blog */
 

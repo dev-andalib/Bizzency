@@ -4,9 +4,19 @@ $(document).ready(function () {
     window.innerWidth || 0
   );
 
+  $(".up").click(function () {
+    $("html,body").animate(
+      {
+        scrollTop: 0,
+      },
+      1000
+    );
+  });
+
   $(window).resize(function () {
     location.reload();
   });
+
   if (vw > 1230) {
     $(".slider").slick({
       infinite: true,
@@ -22,6 +32,22 @@ $(document).ready(function () {
       slideToScroll: 1,
       nextArrow: $(".p_next"),
       prevArrow: $(".p_prev"),
+    });
+
+    $(".testimonial").slick({
+      infinite: true,
+      slidesToShow: 2,
+      slideToScroll: 2,
+      nextArrow: $(".t_next"),
+      prevArrow: $(".t_prev"),
+    });
+
+    $(".blog_item").slick({
+      infinite: true,
+      slidesToShow: 3,
+      slideToScroll: 1,
+      nextArrow: $(".b_next"),
+      prevArrow: $(".b_prev"),
     });
   }
 
@@ -41,6 +67,22 @@ $(document).ready(function () {
       nextArrow: $(".p_next"),
       prevArrow: $(".p_prev"),
     });
+
+    $(".testimonial").slick({
+      infinite: true,
+      slidesToShow: 1,
+      slideToScroll: 1,
+      nextArrow: $(".t_next"),
+      prevArrow: $(".t_prev"),
+    });
+
+    $(".blog_item").slick({
+      infinite: true,
+      slidesToShow: 2,
+      slideToScroll: 1,
+      nextArrow: $(".b_next"),
+      prevArrow: $(".b_prev"),
+    });
   }
 
   if (vw < 900) {
@@ -59,30 +101,21 @@ $(document).ready(function () {
       nextArrow: $(".p_next"),
       prevArrow: $(".p_prev"),
     });
+
+    $(".testimonial").slick({
+      infinite: true,
+      slidesToShow: 1,
+      slideToScroll: 1,
+      nextArrow: $(".t_next"),
+      prevArrow: $(".t_prev"),
+    });
+
+    $(".blog_item").slick({
+      infinite: true,
+      slidesToShow: 1,
+      slideToScroll: 1,
+      nextArrow: $(".b_next"),
+      prevArrow: $(".b_prev"),
+    });
   }
-
-  $(".testimonial").slick({
-    infinite: true,
-    slidesToShow: 2,
-    slideToScroll: 2,
-    nextArrow: $(".t_next"),
-    prevArrow: $(".t_prev"),
-  });
-
-  $(".blog_item").slick({
-    infinite: true,
-    slidesToShow: 3,
-    slideToScroll: 1,
-    nextArrow: $(".b_next"),
-    prevArrow: $(".b_prev"),
-  });
-
-  $(".up").click(function () {
-    $("html,body").animate(
-      {
-        scrollTop: 0,
-      },
-      1000
-    );
-  });
 });

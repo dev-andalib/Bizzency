@@ -1,4 +1,22 @@
-@media screen and (max-width: 1230px) {
+@media screen and (max-width: 1300px) {
+  .test_text {
+    width: 95%;
+  }
+  .testim {
+    width: 40%;
+  }
+
+  .t_next {
+    right: -4%;
+  }
+
+  .browseAll{
+    padding: 100px;
+  }
+}
+
+
+@media screen and (max-width: 1235px) {
   .ser_text {
     width: 820px;
   }
@@ -77,6 +95,10 @@
     width: 400px;
     padding-left: 30px;
     text-align: right;
+  }
+
+  .t_next {
+    right: -6%;
   }
 }
 
@@ -209,6 +231,11 @@
     padding-left: 0;
     text-align: right;
   }
+
+  .profiler {
+    margin-bottom: 60px;
+    padding-left: 26px;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -257,13 +284,92 @@
     text-align: right;
   }
 
+  .profiler {
+    padding-left: 49px;
+  }
+
+  .profiler .profile .img {
+    width: 320px;
+  }
+
+  .profiler .profile .img img {
+    width: 320px;
+  }
+
+  .profiler .profile .img .after {
+    width: 320px;
+    object-fit: contain;
+  }
+
+  .p_prev {
+    left: 6%;
+  }
   .p_next {
-    right: -12px;
+    right: -6%;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 492px) {
   .p_next {
-    right: -130px;
+    right: -0.5%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .p_next {
+    right: -8%;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .p_next {
+    right: -6%;
+  }
+  .p_prev {
+    left: 10%;
+  }
+
+  .profiler {
+    padding-left: 3rem;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .profiler {
+    padding-left: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 396px) {
+  .profiler {
+    padding-left: 1rem;
+  }
+  .p_prev {
+    left: 8%;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .profiler {
+    padding-left: 1rem;
+  }
+  .p_prev {
+    left: 12%;
+  }
+
+  .p_next {
+    right: -8%;
+  }
+}
+
+
+@media screen and (max-width: 370px) {
+  .profiler {
+    padding-left: 0;
+  }
+
+  .p_prev {
+    left: 7%;
   }
 }
