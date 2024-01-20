@@ -2,7 +2,7 @@
   .test_text {
     width: 95%;
   }
-  .testim {
+  .testi {
     width: 40%;
   }
 
@@ -10,11 +10,31 @@
     right: -4%;
   }
 
-  .browseAll{
+  .browseAll {
     padding: 100px;
   }
-}
 
+  .test_text .testimonial .testi .testim .test_pic {
+    width: 150px;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 30px;
+  }
+
+  .test_text .testimonial .testi .testim .test_pic img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+  }
+
+  .test_text .testimonial .testi .testim {
+    width: 470px;
+  }
+
+  .t_next {
+    right: 4%;
+  }
+}
 
 @media screen and (max-width: 1235px) {
   .ser_text {
@@ -34,6 +54,43 @@
 
   .p_next {
     right: 10px;
+  }
+
+  .t_next {
+    right: 2%;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .t_next {
+    right: -1%;
+  }
+
+  .test_text .testimonial .testi .testim .testi_text p {
+    color: #444;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    padding-bottom: 30px;
+    width: 335px;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  .t_next {
+    right: -2%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .t_next {
+    right: -4%;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .t_next {
+    right: -5%;
   }
 }
 
@@ -99,6 +156,41 @@
 
   .t_next {
     right: -6%;
+  }
+
+  .test_text .testimonial .testi .testim .testi_text p {
+    font-size: 12px;
+    padding-bottom: 20px;
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .test_text .testimonial .testi .testim .testi_text {
+    padding-top: 30px;
+    padding-left: 5px;
+  }
+
+  .test_text .testimonial .testi .testim .test_pic {
+    width: 150px;
+    
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .test_text .testimonial .testi .testim .test_pic {
+    padding-top: 5px;
+    
+  }
+  .test_text .testimonial .testi .testim .testi_text p {
+    font-size: 12px;
+    padding-bottom: 3px;
+    width: 220px;
+  }
+
+  .test_text .testimonial .testi .testim .testi_text {
+    padding-top: 5px;
+    padding-left: 5px;
   }
 }
 
@@ -340,7 +432,6 @@
   }
 }
 
-
 @media screen and (max-width: 396px) {
   .profiler {
     padding-left: 1rem;
@@ -362,7 +453,6 @@
     right: -8%;
   }
 }
-
 
 @media screen and (max-width: 370px) {
   .profiler {
