@@ -483,7 +483,7 @@
 
   .test_text .testimonial{
     margin-left: 0;
-}
+}}
 
 @media screen and (max-width: 450px) {
   .p_next {
