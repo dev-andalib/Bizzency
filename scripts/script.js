@@ -70,7 +70,7 @@ $(document).ready(function () {
 
     $(".testimonial").slick({
       infinite: true,
-      slidesToShow: 1,
+      slidesToShow: 2,
       slideToScroll: 1,
       nextArrow: $(".t_next"),
       prevArrow: $(".t_prev"),

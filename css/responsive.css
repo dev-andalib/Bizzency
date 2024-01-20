@@ -242,6 +242,13 @@
     width: 400px;
     margin: 0 auto;
   }
+
+  .testimonial{
+    width: 100%;
+  }
+  .test_text .testimonial .testi .testim{
+    margin: 0 auto;
+  }
 }
 
 @media screen and (max-width: 805px) {
