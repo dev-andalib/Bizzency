@@ -10,9 +10,7 @@
     right: -4%;
   }
 
-  .browseAll {
-    padding: 100px;
-  }
+  
 
   .test_text .testimonial .testi .testim .test_pic {
     width: 150px;
@@ -49,11 +47,11 @@
     padding-right: 20px;
   }
   .p_prev {
-    left: 20px;
+    left:  8%;
   }
 
   .p_next {
-    right: 10px;
+    right: 1%;
   }
 
   .t_next {

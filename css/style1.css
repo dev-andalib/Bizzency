@@ -535,6 +535,7 @@ span {
 #porto{
   width: 100%;
 }
+
 .porto_wrap {
   text-align: center;
   padding-top: 98px;
@@ -655,7 +656,7 @@ span {
   width: 50px;
   position: absolute;
   top: 400px;
-  left: 400px;
+  left: 35%;
   transform: translateX(-50%);
   cursor: pointer;
   transition: all linear 0.3s;
@@ -667,7 +668,7 @@ span {
   width: 50px;
   position: absolute;
   top: 400px;
-  right: 417px;
+  right: 32.5%;
   transform: translateX(-50%);
   cursor: pointer;
   transition: all linear 0.3s;
