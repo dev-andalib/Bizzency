@@ -173,14 +173,12 @@
 
   .test_text .testimonial .testi .testim .test_pic {
     width: 150px;
-    
   }
 }
 
 @media screen and (max-width: 960px) {
   .test_text .testimonial .testi .testim .test_pic {
     padding-top: 5px;
-    
   }
   .test_text .testimonial .testi .testim .testi_text p {
     font-size: 12px;
@@ -243,10 +241,10 @@
     margin: 0 auto;
   }
 
-  .testimonial{
+  .testimonial {
     width: 100%;
   }
-  .test_text .testimonial .testi .testim{
+  .test_text .testimonial .testi .testim {
     margin: 0 auto;
   }
 }
@@ -334,6 +332,58 @@
   .profiler {
     margin-bottom: 60px;
     padding-left: 26px;
+  }
+}
+
+@media screen and (max-width: 730px) {
+  .t_prev {
+    left: 8%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .t_prev {
+    left: 9%;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .t_prev {
+    left: 9.5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .test_text .testimonial .testi .testim {
+    width: 320px;
+    line-height: 1px;
+    display: block;
+    height: 240px;
+  }
+
+  .test_text .testimonial .testi .testim .test_pic {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+  }
+
+  .test_text .testimonial .testi .testim .testi_text {
+    text-align: center;
+    padding: 5px;
+  }
+
+  .test_text .testimonial .testi .testim .testi_text h4 {
+    font-size: 14px;
+    padding-bottom: 10px;
+  }
+
+  .test_text .testimonial .testi .testim .testi_text h6 {
+    font-size: 12px;
+  }
+
+  .test_text .testimonial .testi .testim .testi_text p {
+    font-size: 12px;
+    width: 300px;
   }
 }
 
