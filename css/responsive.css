@@ -10,8 +10,6 @@
     right: -4%;
   }
 
-  
-
   .test_text .testimonial .testi .testim .test_pic {
     width: 150px;
     height: 100%;
@@ -32,6 +30,15 @@
   .t_next {
     right: 4%;
   }
+
+  .blog_wrap .browse{
+    margin-right: 50px;
+  }
+
+  .blog_wrap h4,
+  .blog_wrap h5 {
+    padding-right: 50px;
+  }
 }
 
 @media screen and (max-width: 1235px) {
@@ -47,7 +54,7 @@
     padding-right: 20px;
   }
   .p_prev {
-    left:  8%;
+    left: 8%;
   }
 
   .p_next {
@@ -56,6 +63,17 @@
 
   .t_next {
     right: 2%;
+  }
+
+  .blog_wrap {
+    width: 800px;
+  }
+
+  .b_prev {
+    left: -1%;
+  }
+  .b_next {
+    right: -1%;
   }
 }
 
@@ -72,6 +90,8 @@
     padding-bottom: 30px;
     width: 335px;
   }
+
+
 }
 
 @media screen and (max-width: 1130px) {
@@ -91,6 +111,7 @@
     right: -5%;
   }
 }
+  
 
 @media screen and (max-width: 1030px) {
   .container {
@@ -245,6 +266,10 @@
   .test_text .testimonial .testi .testim {
     margin: 0 auto;
   }
+  .blog_wrap {
+    width: 400px;
+  }
+  
 }
 
 @media screen and (max-width: 805px) {
@@ -464,6 +489,56 @@
   .t_prev {
     left: 14.5%;
   }
+
+  .blog_wrap {
+    width: 330px;
+  }
+  .blog_item {
+    margin-bottom: 34px;
+  }
+
+  .b_prev {
+    left: 1%;
+    top: 350px
+  }
+  .b_next {
+    right: -12%;
+    top: 350px
+  }
+
+  .blog_wrap h4,
+  .blog_wrap h5 {
+    padding-right: 0px;
+  }
+  .blog_wrap .browse {
+    margin-right: 0px;
+  }
+
+  .blog_item .blog_content .blog1{
+    width: 320px;
+    height: 350px;
+    text-align: center;
+  }
+
+  .blog_item .blog_content .blog1 img {
+    padding: 20px 0 10px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .blog_item .blog_content .blog1 h3 {
+    font-size: 12px;
+    padding-left: 5px;
+  }
+
+  .blog_item .blog_content .blog1 h4{
+    font-size: 16px;
+    padding-left: 5px;
+  }
+  .blog_item .blog_content .blog1 a{
+    padding-left: 5px;
+  }
 }
 
 @media screen and (max-width: 492px) {
@@ -479,16 +554,15 @@
     left: 95%;
   }
 
-  .test_text .testimonial{
+  .test_text .testimonial {
     margin-left: 0;
-}}
+  }
+}
 
 @media screen and (max-width: 450px) {
   .p_next {
     right: -8%;
   }
-
-
 }
 
 @media screen and (max-width: 440px) {
@@ -518,7 +592,7 @@
   }
 
   .t_prev {
-    left: .5%;
+    left: 0.5%;
     top: 200px;
   }
 

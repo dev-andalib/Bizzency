@@ -808,8 +808,9 @@ span {
   text-align: center;
   padding-top: 98px;
   padding-bottom: 98px;
-  width: 100%;
+  width: 1200px;
   position: relative;
+  margin: 0 auto;
 }
 
 .blog_wrap h4 {
@@ -937,7 +938,7 @@ span {
   width: 50px;
   position: absolute;
   top: 420px;
-  right: 32%;
+  right: 33%;
   transform: translateX(-50%);
   cursor: pointer;
   transition: all linear 0.3s;
